@@ -3,13 +3,13 @@ from typing import List, Dict
 import csv
 doc_path = '../data/job.csv'
 
+
 @lru_cache
 def read(path: str) -> List[Dict]:
-    with open(path, 'r', 'utf-8') as data:
-        list = csv.DictReader(data)
-    return list
-    
-
+    with open(path, 'r') as data:
+        data_list = csv.DictReader(data)
+        clear_data_list = [*data_list]
+    return clear_data_list
 
 
 def get_unique_job_types(path: str) -> List[str]:
