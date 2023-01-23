@@ -9,6 +9,7 @@ def get_unique_industries(path: str) -> List[str]:
         job_industry = job['industry']
         if job_industry not in unique_industries:
             unique_industries.append(job_industry)
+    return unique_industries
 
 
 def filter_by_industry(jobs: List[Dict], industry: str) -> List[Dict]:
