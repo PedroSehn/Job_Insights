@@ -18,7 +18,7 @@ def get_unique_job_types(path: str) -> List[str]:
     for job in data_list:
         job_type = job["job_type"]
         if job_type not in unique_jobs_list:
-            unique_jobs_list.append(job)
+            unique_jobs_list.append(job_type)
     return unique_jobs_list
 
 
