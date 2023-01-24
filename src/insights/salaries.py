@@ -7,9 +7,9 @@ def get_max_salary(path: str) -> int:
     greatest_salary = 0
     for job in jobs_list:
         salary = job["max_salary"]
-        if len(salary) > 0 and salary != 'invalid':
-            if greatest_salary < salary:
-                greatest_salary = salary
+        if salary.isnumeric():
+            if greatest_salary < int(salary):
+                greatest_salary = int(salary)
     return greatest_salary
 
 

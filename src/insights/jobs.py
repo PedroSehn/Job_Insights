@@ -6,9 +6,9 @@ doc_path = '../data/job.csv'
 
 @lru_cache
 def read(path: str) -> List[Dict]:
-    with open(path, 'r') as data:
+    with open(path, 'r', encoding="utf8") as data:
         data_list = csv.DictReader(data)
-        clear_data_list = [*data_list]
+        clear_data_list = list(data_list)
     return clear_data_list
 
 
