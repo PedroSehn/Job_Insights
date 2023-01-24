@@ -7,7 +7,7 @@ def get_max_salary(path: str) -> int:
     greatest_salary = []
     for job in jobs_list:
         salary = job["max_salary"]
-        if salary is True and salary > greatest_salary:
+        if salary is not None and salary != 'invalid':
             greatest_salary.append(salary)
     return max(greatest_salary)
 
