@@ -5,9 +5,9 @@
 ---
 #### Objetivos do projeto:
     
-       - Aprender sobre entrada e saida de informações 
-       - Aprender a ler arquivos 
-       - Manipular informaçoes 
+       * Aprender sobre entrada e saida de informações 
+       * Aprender a ler arquivos 
+       * Manipular informaçoes 
   
    
 
