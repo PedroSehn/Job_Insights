@@ -11,7 +11,7 @@
    
 
 #### Requisitos
-  - [x] Implementar função <b>read</b> em `src/insights/jobs.py`
+  - ✅ Implementar função <b>read</b> em `src/insights/jobs.py`
   - [x] Implementar a função get_unique_job_types em `src/insights/jobs.py`
   - [x] Implementar a função get_unique_industries em `src/insights/industries.py`
   - [x] Implementar a função get_max_salary em `src/insights/salaries.py`
