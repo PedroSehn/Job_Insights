@@ -12,6 +12,6 @@
    
 
 <h4> Requisitos </h4>
- - [ X ] Implementar função <b>read</b> em src/insights/jobs.py
+ - [x] Implementar função <b>read</b> em src/insights/jobs.py
  - [ ] 
  
