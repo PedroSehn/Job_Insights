@@ -24,5 +24,6 @@
 
 
 ### Instalando dependencias:
- 1. python3 -m venv .venv && source .venv/bin/activate
- 2. python3 -m pip install -r dev-requirements.txt
+ 1. `git clone git@github.com:PedroSehn/Job_Insights.git`
+ 2. `python3 -m venv .venv && source .venv/bin/activate`
+ 3. `python3 -m pip install -r dev-requirements.txt`
