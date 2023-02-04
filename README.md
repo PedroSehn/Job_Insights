@@ -21,4 +21,4 @@
   - [x]  Implementar a função filter_by_industry em `src/insights/industries.py`
   - [x] Implementar a função matches_salary_range em `src/insights/salaries.py`
   - [x]  Implementar a função filter_by_salary_range em `src/insights/salaries.py`
-  - [x]  Implementar um teste para a função read_brazilian_file em `tests/brazilian/test_brazilian_jobs.py`
+  - [ ]  Implementar um teste para a função read_brazilian_file em `tests/brazilian/test_brazilian_jobs.py`
