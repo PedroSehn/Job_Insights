@@ -1,7 +1,7 @@
 
 <h1 align="center">Job Insights!</h1>
 
-<h3> Meu primeiro projeto em Python! </h3>
+<h3 align="center"> Meu primeiro projeto em Python! </h3>
 ----
 <h4> Objetivos do projeto: </h4>
     - Aprender sobre entrada e saida de informações
@@ -9,7 +9,7 @@
     - Manipular informaçoes
 
 #### Requisitos
- - [] - Teste
+ - [ ] Teste
     
 
 
