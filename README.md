@@ -1,5 +1,5 @@
 
-# Job Insights!
+# Job Insights! 🧠
 
 ### Meu primeiro projeto em Python!
 ---
