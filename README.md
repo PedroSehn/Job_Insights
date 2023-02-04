@@ -12,6 +12,6 @@
    
 
 <h4> Requisitos </h4>
- - [x] Implementar função <b>read</b> em src/insights/jobs.py
+ <input type="checkbox"> Implementar função <b>read</b> em src/insights/jobs.py </input>
  - [ ] 
  
